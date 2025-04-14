@@ -121,3 +121,7 @@ The generated output file (`<output_file>`) has the following structure:
 4.  If a `[custom_exclusion_file]` is provided, its patterns are read and applied relative to the `<start_path>` (like a root `.gitignore`).
 5.  A file or directory is excluded if it matches **any** applicable ignore pattern from any `.gitignore` or the custom exclusion file, unless a later negation pattern (`!pattern`) overrides it.
 6.  The final check includes filtering by file extensions if they are provided.
+
+---
+_Crafted by C64 demoscener [Zephyr/Elysium](https://csdb.dk/scener/?id=1140)_ -=|=-
+_Keep the pixels polished at [PolishPixels](https://polishpixels.com)!_
