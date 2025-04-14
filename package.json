@@ -1,0 +1,15 @@
+{
+  "name": "repo2file",
+  "version": "1.0.0",
+  "main": "repo2file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zephyr",
+  "license": "ISC",
+  "description": "A utility for generating one-file dump from repositories for use with LLMs while respecting .gitignore patterns",
+  "dependencies": {
+    "glob": "^11.0.1",
+    "ignore": "^7.0.3"
+  }
+}
