@@ -1,13 +1,13 @@
 {
-  "name": "repo2file",
+  "name": "git2file",
   "version": "1.0.0",
   "description": "A utility for generating one-file dump from repositories for use with LLMs while respecting .gitignore patterns",
-  "main": "repo2file.js",
+  "main": "git2file.js",
   "bin": {
-    "repo2file": "./repo2file.js"
+    "git2file": "./git2file.js"
   },
   "scripts": {
-    "start": "node repo2file.js"
+    "start": "node git2file.js"
   },
   "author": "zephyr",
   "license": "ISC",
