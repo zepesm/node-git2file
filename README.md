@@ -18,11 +18,18 @@ This Node.js script scans a specified repository directory, processes its struct
 
 - [Node.js](https://nodejs.org/) (which includes npm)
 
+## Dependencies
+
+The script relies on the following npm packages, which should be listed in your `package.json`:
+
+- `ignore`: For parsing `.gitignore` rules.
+- `glob`: For finding `.gitignore` files.
+
 ## Installation
 
-1.  Save the script as `repo2file.js` (or any other name).
-2.  Navigate to the directory containing the script in your terminal.
-3.  Install the necessary dependencies:
+1.  Clone the repository or download the `repo2file.js` and `package.json` files.
+2.  Navigate to the project directory in your terminal.
+3.  Install the dependencies using npm:
 
     ```bash
     npm install
