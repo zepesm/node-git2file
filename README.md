@@ -35,12 +35,31 @@ The script relies on the following npm packages, which should be listed in your 
     npm install
     ```
 
+### Global Installation (Optional, for command-line use everywhere)
+
+To make the script available as a command (`repo2file`) callable from any directory:
+
+1.  Navigate to the project directory in your terminal (the one containing `package.json`).
+2.  Run the global install command (you might need administrator/sudo privileges):
+
+    ```bash
+    npm install -g .
+    ```
+
+3.  After successful installation, you can run the script from anywhere using the `repo2file` command instead of `node repo2file.js`.
+
 ## Usage
 
-The script is run from the command line using Node.js:
+If installed locally (using `npm install`):\*\*
 
 ```bash
 node repo2file.js <start_path> <output_file> [custom_exclusion_file] [.ext1 .ext2 ...]
+```
+
+**If installed globally (using `npm install -g .`):**
+
+```bash
+repo2file <start_path> <output_file> [custom_exclusion_file] [.ext1 .ext2 ...]
 ```
 
 **Arguments:**
